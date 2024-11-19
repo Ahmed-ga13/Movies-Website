@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumanji: Welcome to the Jungle</title>
+    <!-- link to CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <nav class="nav container">
+            <!-- Logo -->
+            <a href="#index.html" class="logo">
+                Movie<span>Vel</span>
+            </a>
+            <!-- Search Box -->
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search movie">
+                <i class="bx bx-search"></i>
+            </div>
+            <!-- User -->
+            <a href="#" class="user">
+                <img src="img/user.jpg" alt="user" class="user-img">
+            </a>
+
+            <!-- Nav Menu -->
+            <div class="nav_menu">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class="bx bx-home"></i>
+                    <span class="nav-name">Home</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-name">Trending</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class="bx bx-compass"></i>
+                    <span class="nav-name">Explore</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class="bx bx-tv"></i>
+                    <span class="nav-name">Movies</span>
+                </a>
+
+                <a href="#home" class="nav-link">
+                    <i class="bx bx-heart"></i>
+                    <span class="nav-name">Favourite</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Play Movie Container -->
+    <div class="play-container container">
+        <img src="play-page/play-background.jpg" alt="play-page" class="play-img">
+        <!-- play text -->
+        <div class="play-text">
+            <h2>Jumanji: Welcome to the Jungle</h2>
+            <!-- Rating -->
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <!-- Tags -->
+            <div class="tags">
+                <span>Action</span>
+                <span>Adventure</span>
+                <span>4K</span>
+            </div>
+            <!-- Trailer Button -->
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow'></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+
+        <!-- Play Button -->
+        <i class='bx bx-right-arrow play-movie'></i>
+
+        <!-- video Container -->
+        <div class="video-container">
+            <!-- video Box -->
+            <div class="video-box">
+                <video id="myvideo" src="play-page/Jumanji.mp4" controls></video>
+
+                <!-- close icon video -->
+                <i class='bx bx-x close-video'></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About Movie -->
+    <div class="about-movie container">
+        <h2>Jumanji: Welcome to the Jungle</h2>
+        <p>When four students play with a magical video game, they are drawn to the jungle world of Jumanji, where they
+            are trapped
+            as their avatars. To return to the real world, they must finish the game.</p>
+        <!-- Cast -->
+        <div class="cast-heading">Movie Cast</div>
+        <div class="cast">
+            <div class="cast-box">
+                <img src="play-page/cast1.jpg" alt="cast1" class="cast-img">
+                <span class="cast-title">Dwayne Johnson</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast2.jpg" alt="cast2" class="cast-img">
+                <span class="cast-title">Karen Gillan</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast3.jpg" alt="cast3" class="cast-img">
+                <span class="cast-title">Kevin Hart</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast4.jpg" alt="cast4" class="cast-img">
+                <span class="cast-title">Jack Black</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast5.jpg" alt="cast5" class="cast-img">
+                <span class="cast-title">Nick Jonas</span>
+            </div>
+
+            <div class="cast-box">
+                <img src="play-page/cast6.jpg" alt="cast6" class="cast-img">
+                <span class="cast-title">Madison Iseman</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Download -->
+     <div class="download">
+        <h2 class="download-title">Download Movie</h2>
+        <div class="download-links">
+            <a href="play-page/Jumanji.mp4" download>480p</a>
+            <a href="play-page/Jumanji.mp4" download>720p</a>
+            <a href="play-page/Jumanji.mp4" download>1080p</a>
+        </div>
+     </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&copy; 2024 All rights reserved by <span>Za3em</span></p>
+    </div>
+
+
+
+
+
+
+
+    <!-- js swiper -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- link js  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
