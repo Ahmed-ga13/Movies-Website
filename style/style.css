@@ -699,6 +699,9 @@ nav {
         bottom: 10rem;
         right: 2rem;
     }
+        .download {
+            max-width: 300px;
+        }
 }
 
 @media (max-width:514px) {
@@ -733,6 +736,9 @@ nav {
     .cast-title {
         font-size: 0.9rem;
     }
+        .download {
+            max-width: 300px;
+        }
 }
 
 @media (max-width:408px) {
@@ -769,6 +775,9 @@ nav {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 1rem;
     }
+        .download {
+            max-width: 300px;
+        }
 }
 
 /* For small Devices  */
@@ -798,6 +807,10 @@ nav {
 
     .about-movie p{
         text-align: justify;
+    }
+
+    .download{
+        max-width: 300px;
     }
 
     .download-links{
